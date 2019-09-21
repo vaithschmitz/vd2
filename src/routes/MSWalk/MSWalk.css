@@ -1,0 +1,31 @@
+#MSWalk-container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 'a b';
+    grid-template-columns: 66.66vw  33.33vw;
+    background-color: black
+}
+
+#MSWalk-Descrip-container{
+    grid-area: a;
+    padding-left: 10vw;
+    padding-right: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 100vh;
+}
+
+#MSWalk-Video-container{
+    grid-area: b;
+    display: flex;
+    align-items: center;
+
+}
+
+#MSWalk-Video{
+    height: 80vh;
+
+}
