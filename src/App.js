@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import Typing from 'react-typing-animation'
 import './App.css';
+import Robothead from './components/Robothead/Robothead'
 
 function App() {
+  const AnimatedTypingComponent = () => (
+    <Typing>
+      <span>Hello, Stranger.</span>
+      <Typing.Backspace count={9}></Typing.Backspace>
+      <span>Friend.</span>
+      <br/>
+      {/* <Typing.Delay ms={1000} /> */}
+      <span>Let me show you what I'm working on.</span>
+      <br/>
+      <span>What do you want to see first?</span>
+      <br/>
+      <button>Mobile-first charity web app</button>
+      <br/>
+      <button>Offline hardware home automation</button>
+      {/* <span>Let me show you what I've been doing recently.</span> */}
+    </Typing>
+  );
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="Splash-container">
+      <Robothead />
+      <div className="Splash-Typing" > <AnimatedTypingComponent /></div>
     </div>
   );
 }
