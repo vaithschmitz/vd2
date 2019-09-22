@@ -6,7 +6,6 @@ import mapsLogo from './mapsLogo.svg'
 import netlifyLogo from './netlifyLogo.svg'
 import GithubButton from '../../components/Buttons/Buttons'
 
-// import Video from './MSWalk Screengrab.mp4'
 
 export default function MSWalk(props) {
 
@@ -35,7 +34,7 @@ export default function MSWalk(props) {
                 <GithubButton link={'https://github.com/vaithschmitz/mswalk'}/>
             </div>
         </div> 
-        <div id='MSWalk-Video-container'> <video id='MSWalk-Video' src={MSWalkVid} autoPlay={true} loop={true}> </video></div> 
+        <div id='MSWalk-Video-container'> <video id='MSWalk-Video' src={MSWalkVid} autoPlay={true} loop={true} muted={true}> </video></div> 
       </div>
     );
   }
