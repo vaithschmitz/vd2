@@ -4,8 +4,11 @@
     display: grid;
     grid-template-areas: 'a b';
     grid-template-columns: 66.66vw  33.33vw;
-    background-color: black
+    background-color: black;
+    opacity: 0;
+    transition: 2s
 }
+
 
 #MSWalk-Descrip-container{
     grid-area: a;
@@ -16,6 +19,8 @@
     flex-direction: column;
     color: white;
     height: 100vh;
+    transform: translateX(-100vw);
+    transition: 1s
 }
 
 #MSWalk-Headline{
@@ -29,7 +34,8 @@
 
 #MSWalk-Logos-container{
     display: grid;
-    grid-template-columns: 8vw 8vw 8vw 8vw;
+    grid-template-columns: 7vw 7vw 7vw 7vw 7vw 7vw;
+    /* grid-gap: 5vw; */
 }
 
 .MSWalk-Logo{
@@ -40,6 +46,8 @@
     grid-area: b;
     display: flex;
     align-items: center;
+    transform: translateX(100vw);
+    transition: 1s
 
 }
 

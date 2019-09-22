@@ -1,17 +1,28 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './MSWalk.css'
 import MSWalkVid from './MSWalkVid.mp4'
 import reactLogo from './reactLogo.svg'
 import mapsLogo from './mapsLogo.svg'
 import netlifyLogo from './netlifyLogo.svg'
-import GithubButton from '../../components/Buttons/Buttons'
+import cssLogo from './cssLogo.svg'
+import jsLogo from './jsLogo.svg'
+import {GithubButton} from '../../components/Buttons/Buttons'
 
 
 export default function MSWalk(props) {
+    const $ = (x) => document.getElementById(x) 
+    useEffect(() =>{
+        $('MSWalk-container').style.opacity = 1;
+        $('MSWalk-Descrip-container').style.transform = 'translateX(0vh)';
+        $('MSWalk-Video-container').style.transform = 'translateX(0vh)';
+
+    })
 
     return (
-      <div id="MSWalk-container">
+      <div id="MSWalk-container" className='MSWalk-transition'>
+        
         <div id='MSWalk-Descrip-container'>
+            
             <p id='MSWalk-Headline'>MS WALK LONDON WEB APP</p>
             {/* <br/> */}
             <p className='MSWalk-Parag'>MS Walk London is the MS Society's biggest annual fundraising event with around 1000 concurrent participants making their way through London to raise money and awareness for Multiple Sclerosis
@@ -31,6 +42,8 @@ export default function MSWalk(props) {
                 <img className='MSWalk-Logo' src={reactLogo}/>
                 <img className='MSWalk-Logo' src={mapsLogo}/>
                 <img className='MSWalk-Logo' src={netlifyLogo}/>
+                <img className='MSWalk-Logo' src={jsLogo}/>
+                <img className='MSWalk-Logo' src={cssLogo}/>
                 <GithubButton link={'https://github.com/vaithschmitz/mswalk'}/>
             </div>
         </div> 

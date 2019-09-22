@@ -80,18 +80,18 @@
 }
 
 #Eye-left{
-    background:linear-gradient(150deg, #0d00ff 0%,#ff4d2e 97%);
+    background:linear-gradient(150deg, #0d00ff69 0%,#ff4d2e75 97%);
 }
 
 #Eye-right{
-    background:linear-gradient(200deg, #0d00ff 0%,#ff4d2e 97%);
+    background:linear-gradient(200deg, #0d00ff8c 0%,#ff4d2e8f 97%);
 }
 
 #Pupil-left, #Pupil-right{
     height: 2vh;
     width: 2vw;
     background-color: white;
-    animation: changePupil 5s linear  infinite ;
+    animation: changePupil 4s linear  infinite ;
     border-radius: 5px;
 }
 
@@ -147,22 +147,18 @@
     animation: moveMouth 0.4s ease-in-out infinite;
 }
 
-#Mouth-bottom{
-}
+
 
 @keyframes moveMouth{
     0% {
         transform: translateY(0vh);
-        /* transform: rotate(0deg) */
     }
 
     50% {
         transform: translateY(1vh);
-        /* transform: rotate(4deg) */
     }
 
     100% {
         transform: translateY(0vh);
-        /* transform: rotate(0deg) */
     }
 }

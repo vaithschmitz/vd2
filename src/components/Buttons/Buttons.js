@@ -2,7 +2,7 @@ import React from 'react'
 import './Buttons.css'
 import githubLogo from './githubLogo.svg'
 
-export default function GithubButton(props){
+function GithubButton(props){
     return(
         <a href={props.link}>
             <div className='GithubButton-container'>
@@ -12,3 +12,15 @@ export default function GithubButton(props){
         </a>
     )
 }
+
+function SplashButton(props){
+    return(
+        <a href={props.link}>
+        <div className='SplashButton-container'>
+            <div className='Splashbutton-Text'>{props.text}</div>
+        </div> 
+    </a>
+    )
+}
+
+export {GithubButton, SplashButton}
