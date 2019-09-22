@@ -2,7 +2,6 @@ import React from 'react';
 import Typing from 'react-typing-animation'
 import './App.css';
 import Robothead from './components/Robothead/Robothead'
-import Video from './routes/MSWalk/MSWalk Screengrab.mp4'
 
 function App() {
   const AnimatedTypingComponent = () => (
@@ -24,7 +23,6 @@ function App() {
     <div id="Splash-container">
       <Robothead />
       <div className="Splash-Typing" > <AnimatedTypingComponent /></div>
-      {/* <video src={Video} autoPlay={true} loop={true}> </video> */}
     </div>
   );
 }

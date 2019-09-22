@@ -18,6 +18,24 @@
     height: 100vh;
 }
 
+#MSWalk-Headline{
+    font-size: 5vh;
+    font-weight: bold
+}
+
+.MSWalk-Parag{
+    font-size: 2vh;
+}
+
+#MSWalk-Logos-container{
+    display: grid;
+    grid-template-columns: 8vw 8vw 8vw 8vw;
+}
+
+.MSWalk-Logo{
+    height: 5vh;
+}
+
 #MSWalk-Video-container{
     grid-area: b;
     display: flex;

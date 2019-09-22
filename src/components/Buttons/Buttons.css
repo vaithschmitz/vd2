@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+}
+
+.GithubButton-container{
+    height: 5vh;
+    width: 10vw;
+    display: grid; 
+    grid-template-columns: 2vw 8vw;
+    background:linear-gradient(150deg, #ff4787 0%,#4787ff 30%,#ffbf47 65%,#ff6347 100% );
+    border-radius: 3px;
+    font-size: 2vh;
+    font-weight: bold;
+    color: black
+}
+.GithubButton-Logo{
+    display: flex;
+    align-items: center;
+}
+
+.githubLogo{
+    height: 3vh;
+    padding-left: 0.5vw;
+}
+
+.GithubButton-Text{
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
