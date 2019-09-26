@@ -6,7 +6,7 @@ export default function Navbar(){
     return(
         <div id='Navbar-container'>
             <div id='Navbar-middle'>
-                <div id='Navbar-Who'>ABOUT</div> 
+                <a href='/about'><div id='Navbar-Who'>ABOUT</div> </a>
                 <div id='Navbar-Work' onClick={()=> setExpanded(!expand)}>WORK
                     <div id={expand ? 'Navbar-Work-dropdown' : 'Navbar-Work-hidden'} >
                         <a href='/mswalk'><div id='Navbar-Work-MS'>MS Walk</div></a>

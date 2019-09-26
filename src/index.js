@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './index.css';
 import Splash from './routes/Splash/Splash';
+import About from './routes/About/About';
 import Navbar from './components/Navbar/Navbar'
 import MSWalk from './routes/MSWalk/MSWalk'
 import * as serviceWorker from './serviceWorker';
@@ -15,6 +16,7 @@ const routing = (
         {/* <Route component={Navbar}/> */}
         <Route exact path="/" component={Splash} />
         <Switch>
+          <Route path='/about' component={About}/>
           <Route path='/mswalk' component={MSWalk}/>
         </Switch>
         {/* <Route component={Footer}/> */}

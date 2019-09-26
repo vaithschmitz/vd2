@@ -1,7 +1,6 @@
 #Splash-container{
   height: 90vh;
   width: 100vw;
-
 }
 
 #SplashVid{
@@ -28,14 +27,6 @@
 .Splash-Typing > *{
   background-color: rgba(0, 0, 0, 0.459);
 }
-/* .Splash-Link{
-  text-decoration: none;
-  color: white;
-  border: solid white;
-  border-radius: 5px
-} */
-
-
 
 
  

@@ -1,0 +1,47 @@
+#About-container{
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    padding-top: 10vh;
+    justify-items: center;
+    grid-template-columns: 50vw 50vw;
+    font-size: 2vh;
+    color: white;
+    background-color: black;
+}
+
+#About-CV{
+    color: orange;
+    font-style: italic
+}
+
+#About-left{
+    padding-left: 10vw
+}
+
+
+#About-right{
+    float: right;
+}
+
+#vaithPic{
+    border: double white;
+    border-radius: 60px;
+    animation: scaleIn 1s ease-in-out;
+}
+
+@keyframes scaleIn{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+        border-radius: 500px;
+    }
+    75%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+        border-radius: 60px;
+    }
+}
