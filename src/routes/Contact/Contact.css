@@ -2,10 +2,12 @@
     height: 90vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(4,25vw);
+    grid-template-columns: repeat(4,15vw);
+    grid-gap: 2vw;
+    position: relative;
+    justify-content: center;
     overflow: hidden;
 }
-
 
 #Contact-container > * {
     display: flex;
@@ -63,6 +65,6 @@
 }
 
 .Contact-text{
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
