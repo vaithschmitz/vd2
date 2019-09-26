@@ -15,7 +15,7 @@ export default function Navbar(){
                         <div id='Navbar-Work-Jarvis'>Home Automation</div>
                     </div>
                 </div>
-                <div id='Navbar-Talk'>LET'S TALK</div> 
+                <a href='/contact'><div id='Navbar-Talk'>LET'S TALK</div></a>
             </div>
         </div>
     )

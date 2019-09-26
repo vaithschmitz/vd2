@@ -8,6 +8,7 @@ a{
     display: grid;
     grid-template-areas: 'a b c';
     grid-template-columns: 20vw 60vw 20vw;
+    background-color: black
 }
 
 #Navbar-middle{

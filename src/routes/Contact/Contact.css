@@ -1,0 +1,68 @@
+#Contact-container{
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4,25vw);
+    overflow: hidden;
+}
+
+
+#Contact-container > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; 
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#Contact-Linkedin{
+    transform: translateY(250vh);
+    background-color: rgb(50, 50, 50);
+}
+
+#Contact-Github{
+    transform: translateY(200vh);
+    background-color: rgb(75, 75, 75);
+}
+#Contact-CV{
+    transform: translateY(150vh);
+    background-color: rgb(100, 100, 100);
+}
+#Contact-Email{
+    transform: translateY(100vh);
+    background-color: rgb(125, 125, 125);
+}
+
+#Contact-Linkedin:hover{
+    background-color: rgba(0, 255, 0, 0.5);
+    border-radius: 50px;
+
+}
+#Contact-Github:hover{
+    background-color: rgba(255, 255, 0, 0.507);
+    border-radius: 50px
+}
+#Contact-CV:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50px
+}
+#Contact-Email:hover{
+    background-color: rgba(0, 0, 255, 0.5);
+    border-radius: 50px
+}
+
+.Contact-link{
+    height: 100%;
+    width: 100%;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-text{
+    font-size: 5vh;
+}
+

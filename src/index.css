@@ -17,11 +17,11 @@ code {
 
 #Route-Navbar{
   height: 10vh;
-  /* position: relative; 
-  z-index: 10; */
+  position: relative; 
+  z-index: 10;
 }
 #desktopView{
   height: 90vh;
-  /* position: relative; 
-  z-index: 1; */
+  position: relative; 
+  z-index: 1;
 }
