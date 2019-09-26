@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react'
 import './Contact.css'
 import CV from '../About/WebCV.pdf'
-import { transcode } from 'buffer'
 
 export default function Contact(){
     useEffect(()=>{
