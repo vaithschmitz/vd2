@@ -14,3 +14,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#Route-Navbar{
+  height: 10vh;
+  /* position: relative; 
+  z-index: 10; */
+}
+#desktopView{
+  height: 90vh;
+  /* position: relative; 
+  z-index: 1; */
+}

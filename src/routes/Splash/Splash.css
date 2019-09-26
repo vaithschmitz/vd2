@@ -1,0 +1,41 @@
+#Splash-container{
+  height: 90vh;
+  width: 100vw;
+
+}
+
+#SplashVid{
+  height: 100%;
+  width: 100vw;
+  z-index: 2;
+  object-fit: cover
+}
+
+.Splash-Typing{
+  height: 80vh;
+  width: 100vw;
+  position: absolute;
+  top: 10vh;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 5vh
+}
+
+.Splash-Typing > *{
+  background-color: rgba(0, 0, 0, 0.459);
+}
+/* .Splash-Link{
+  text-decoration: none;
+  color: white;
+  border: solid white;
+  border-radius: 5px
+} */
+
+
+
+
+ 

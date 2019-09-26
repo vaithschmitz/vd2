@@ -1,0 +1,39 @@
+a{
+    color: white
+}
+
+#Navbar-container{
+    height: 10vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 'a b c';
+    grid-template-columns: 20vw 60vw 20vw;
+}
+
+#Navbar-middle{
+    grid-area: b;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    align-self: center;
+    justify-items: center;
+    color: white;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+#Navbar-middle > *:hover{
+    text-decoration: underline orange
+} 
+
+#Navbar-Work-dropdown{
+    position: absolute;
+    background-color: black;
+}
+
+#Navbar-Work-hidden{
+    display:none
+}
+
+#Navbar-Work-dropdown > *:hover{
+    text-decoration: underline orange
+}

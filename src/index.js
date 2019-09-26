@@ -2,16 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './index.css';
-import App from './App';
+import Splash from './routes/Splash/Splash';
+import Navbar from './components/Navbar/Navbar'
 import MSWalk from './routes/MSWalk/MSWalk'
 import * as serviceWorker from './serviceWorker';
 
 
 const routing = ( 
     <Router>
+      <div id='Route-Navbar'><Navbar/> </div>
       <div id='desktopView'>
         {/* <Route component={Navbar}/> */}
-        <Route exact path="/" component={App} />
+        <Route exact path="/" component={Splash} />
         <Switch>
           <Route path='/mswalk' component={MSWalk}/>
         </Switch>
