@@ -6,6 +6,7 @@ import Splash from './routes/Splash/Splash';
 import About from './routes/About/About';
 import Navbar from './components/Navbar/Navbar'
 import MSWalk from './routes/MSWalk/MSWalk'
+import Memefy from './routes/Memefy/Memefy'
 import Contact from './routes/Contact/Contact'
 import * as serviceWorker from './serviceWorker';
 
@@ -19,6 +20,7 @@ const routing = (
         <Switch>
           <Route path='/about' component={About}/>
           <Route path='/mswalk' component={MSWalk}/>
+          <Route path='/memefy' component={Memefy}/>
           <Route path='/contact' component={Contact}/>
         </Switch>
         {/* <Route component={Footer}/> */}

@@ -1,0 +1,63 @@
+#Memefy-container{
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 'a b b' 'c d e' 'f f f';
+    grid-template-rows: 35vh 40vh 15vh;
+    grid-template-columns: 33.3vw 33.3vw 33.3vw;
+    overflow: hidden;
+    color: white;
+    opacity: 0;
+    transition: 1.5s
+}
+
+#Memefy-Descrip-container{
+    grid-area: b;
+    padding: 5vw;
+    
+}
+
+#Memefy-Headline{
+    grid-area: a;
+    padding: 3vw;
+    font-size: 5vh;
+    font-weight: bold
+}
+
+.Memefy-Parag{
+    font-size: 2vh;
+}
+
+#Memefy-Logos-container{
+    grid-area: f;
+    height: 5vh;
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    grid-template-columns: 7vw 7vw 7vw 7vw 7vw;
+    grid-gap: 3vw;
+    transform: translateX(300vh);
+    transition: 3.5s;
+}
+
+#Memefy-Video-container1{
+    grid-area: c;
+    transform: translateY(100vh);
+    transition: 1.5s;
+}
+#Memefy-Video-container2{
+    grid-area: d;
+    transform: translateY(150vh);
+    transition: 1.5s;
+}
+#Memefy-Video-container3{
+    grid-area: e;
+    transform: translateY(200vh);
+    transition: 1.5s;
+}
+
+#Memefy-Video{
+    height: 40vh;
+    width: 33vw;
+
+}

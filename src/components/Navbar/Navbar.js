@@ -10,7 +10,7 @@ export default function Navbar(){
                 <div id='Navbar-Work' onClick={()=> setExpanded(!expand)}>WORK
                     <div id={expand ? 'Navbar-Work-dropdown' : 'Navbar-Work-hidden'} >
                         <a href='/mswalk'><div id='Navbar-Work-MS'>MS Walk</div></a>
-                        <div id='Navbar-Work-memefy'>Memefy</div>
+                        <a href='/memefy'><div id='Navbar-Work-memefy'>Memefy</div></a>
                         <div id='Navbar-Work-Synth'>WTSynth</div>
                         <div id='Navbar-Work-Jarvis'>Home Automation</div>
                     </div>
