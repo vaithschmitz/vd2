@@ -7,6 +7,7 @@ import About from './routes/About/About';
 import Navbar from './components/Navbar/Navbar'
 import MSWalk from './routes/MSWalk/MSWalk'
 import Memefy from './routes/Memefy/Memefy'
+import Jarvis from './routes/Jarvis/Jarvis'
 import Contact from './routes/Contact/Contact'
 import * as serviceWorker from './serviceWorker';
 
@@ -21,6 +22,7 @@ const routing = (
           <Route path='/about' component={About}/>
           <Route path='/mswalk' component={MSWalk}/>
           <Route path='/memefy' component={Memefy}/>
+          <Route path='/jarvis' component={Jarvis}/>
           <Route path='/contact' component={Contact}/>
         </Switch>
         {/* <Route component={Footer}/> */}

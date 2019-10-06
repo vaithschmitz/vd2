@@ -1,0 +1,108 @@
+#Jarvis-container{
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 'a a x' 'b c d' 'e e e';
+    grid-template-rows: 15vh 60vh 15vh;
+    grid-template-columns: 20vw 20vw 35vw;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+    opacity: 0;
+    transition: 2s
+}
+
+
+#Jarvis-Headline{
+    grid-area: a;
+    justify-self: center;
+    font-size: 5vh;
+    font-weight: bold;
+    transform: translateX(-100vw);
+    transition: 1s
+}
+
+#Jarvis-Descrip-container-left{
+    grid-area: b;
+    padding-right: 3vw;
+    align-self: center;
+    transform: translateX(-100vw);
+    transition: 1s
+}
+
+
+#Jarvis-Descrip-container-right{
+    grid-area: c;
+    align-self: center;
+    transform: translateX(-100vw);
+    transition: 1s
+}
+
+
+.Jarvis-Parag{
+    font-size: 2vh;
+}
+
+
+
+#Jarvis-Video-container{
+    grid-area: d;
+    padding-left: 5vw;
+    animation: tvflicker 2s linear infinite;
+    transform: translateX(100vw);
+    transition: 1s
+}
+@keyframes tvflicker{
+    0%{
+        filter: drop-shadow(0 0 4mm rgba(128, 7, 91, 0.644));
+    }
+    20%{
+        filter: drop-shadow(0 0 4mm rgba(126, 85, 10, 0.61));
+    }
+    40%{
+        filter: drop-shadow(0 0 4mm rgba(255, 0, 0, 0.637));
+    }
+    60%{
+        filter: drop-shadow(0 0 4mm blue);
+    }
+    80%{
+        filter: drop-shadow(0 0 4mm rgba(9, 43, 114, 0.562));
+    }
+    80%{
+        filter: drop-shadow(0 0 4mm purple);
+    }
+  
+}
+
+#TVMock{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+#Jarvis-Video{
+    position: relative;
+    z-index: 3;
+    left: 0.9vw;
+    top: 2vh;
+    width: 92%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+
+#Jarvis-Logos-container{
+    grid-area: e;
+    height: 5vh;
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    grid-template-columns: 7vw 7vw 7vw 7vw 7vw 7vw;
+    grid-gap: 3vw;
+}
+
+.Jarvis-Logo{
+    height: 5vh;
+}

@@ -12,7 +12,7 @@ export default function Navbar(){
                         <a href='/mswalk'><div id='Navbar-Work-MS'>MS Walk</div></a>
                         <a href='/memefy'><div id='Navbar-Work-memefy'>Memefy</div></a>
                         <div id='Navbar-Work-Synth'>WTSynth</div>
-                        <div id='Navbar-Work-Jarvis'>Home Automation</div>
+                        <a href='/jarvis'><div id='Navbar-Work-Jarvis'>Home Automation</div></a>
                     </div>
                 </div>
                 <a href='/contact'><div id='Navbar-Talk'>LET'S TALK</div></a>
