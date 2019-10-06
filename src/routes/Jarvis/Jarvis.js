@@ -34,6 +34,15 @@ export default function Jarvis(){
                 <p className='Jarvis-Parag'> 
                     This system allows users to access a whole host of features, including setting custom profiles that know their preferred light settings (including brightness, color etc.), triggering videos, slideshows, and other content on a connected screen and more.
                 </p>
+                <div id='Jarvis-Logos-container'>
+                <img className='Jarvis-Logo' src={pi}/>
+                <img className='Jarvis-Logo' src={node}/>
+                <img className='Jarvis-Logo' src={socket}/>
+                <img className='Jarvis-Logo' src={html}/>
+                <img className='Jarvis-Logo' src={css}/>
+                <img className='Jarvis-Logo' src={js}/>
+        </div>
+
 
             </div> 
             
@@ -48,7 +57,9 @@ export default function Jarvis(){
             <p className='Jarvis-Parag'>
                 Check out the video to the right for a guided run-through.
             </p>
+
             <GithubButton link={'https://github.com/vaithschmitz/jarvis'}/>
+
 
         </div> 
         
@@ -57,14 +68,6 @@ export default function Jarvis(){
             <iframe id='Jarvis-Video' src="https://www.youtube.com/embed/zpd57vcpIHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <div id='Jarvis-Logos-container'>
-                <img className='Jarvis-Logo' src={pi}/>
-                <img className='Jarvis-Logo' src={node}/>
-                <img className='Jarvis-Logo' src={socket}/>
-                <img className='Jarvis-Logo' src={html}/>
-                <img className='Jarvis-Logo' src={css}/>
-                <img className='Jarvis-Logo' src={js}/>
-        </div>
         
         </div>
     )

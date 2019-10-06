@@ -2,7 +2,7 @@
     height: 90vh;
     width: 100vw;
     display: grid;
-    grid-template-areas: 'a a x' 'b c d' 'e e e';
+    grid-template-areas: 'a a a' 'b c d' 'e e e';
     grid-template-rows: 15vh 60vh 15vh;
     grid-template-columns: 20vw 20vw 35vw;
     justify-content: center;
@@ -25,7 +25,7 @@
 #Jarvis-Descrip-container-left{
     grid-area: b;
     padding-right: 3vw;
-    align-self: center;
+    /* align-self: center; */
     transform: translateX(-100vw);
     transition: 1s
 }
@@ -33,7 +33,7 @@
 
 #Jarvis-Descrip-container-right{
     grid-area: c;
-    align-self: center;
+    /* align-self: center; */
     transform: translateX(-100vw);
     transition: 1s
 }
@@ -97,10 +97,11 @@
     grid-area: e;
     height: 5vh;
     display: grid;
-    justify-content: center;
+    padding-top: 5vh;
     align-self: center;
     grid-template-columns: 7vw 7vw 7vw 7vw 7vw 7vw;
-    grid-gap: 3vw;
+    grid-gap: 1vw;
+
 }
 
 .Jarvis-Logo{
