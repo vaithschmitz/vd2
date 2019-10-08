@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import './Memefy.css'
+import {ChromeButton} from '../../components/Buttons/Buttons'
 import memefyVid from './memefyvid.mp4'
 import html from './html.svg'
 import css from './cssLogo.svg'
@@ -22,7 +23,11 @@ export default function Memefy() {
 
     return (
       <div id="Memefy-container">
-         <p id='Memefy-Headline'>memefy Web Extension</p>
+         <p id='Memefy-Headline'>memefy Web Extension
+         <br/><br/>
+         <div><ChromeButton/></div>
+         </p>
+         
         <div id='Memefy-Descrip-container'>
             
             <p className='Memefy-Parag'>
@@ -39,12 +44,15 @@ export default function Memefy() {
 
             <p className='Memefy-Parag'>
                 Make your browsing better, get memefy today and start living again!
+                
             </p>
-            <br/><br/>
-
+            
+            
+            
 
         </div> 
         <div id='Memefy-Logos-container'>
+                
                 <img className='MSWalk-Logo' src={html}/>
                 <img className='MSWalk-Logo' src={css}/>
                 <img className='MSWalk-Logo' src={js}/>
